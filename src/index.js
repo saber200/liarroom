@@ -2,17 +2,12 @@ import { registerMicroApps, start } from 'qiankun';
 import './index.css';
 
 registerMicroApps([
+  // 遗产游戏
   {
     name: 'reactApp',
     entry: '//localhost:3001',
     container: '#container',
-    activeRule: '/app-react',
-  },
-  {
-    name: 'reactApp2',
-    entry: '//localhost:3002',
-    container: '#container',
-    activeRule: '/app-react2',
+    activeRule: '/heritagegame',
   }
 ]);
 // 启动 qiankun
